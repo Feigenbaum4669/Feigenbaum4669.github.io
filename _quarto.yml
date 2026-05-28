@@ -32,13 +32,13 @@ website:
         href: https://github.com/Feigenbaum4669
         aria-label: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/in/YOUR-LINKEDIN
+        href: https://www.linkedin.com/in/oskar-słowik-416b21111/
         aria-label: LinkedIn
       - icon: mortarboard-fill
         href: https://scholar.google.com/citations?user=ZFtNZFEAAAAJ
         aria-label: Google Scholar
       - icon: envelope
-        href: mailto:oslowik@cft.edu.pl
+        href: mailto:osslowik@gmail.com
         aria-label: Email
 
   page-footer:
