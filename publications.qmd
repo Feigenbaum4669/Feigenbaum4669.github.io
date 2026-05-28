@@ -1,0 +1,59 @@
+---
+title: "Publications"
+toc: true
+toc-depth: 3
+---
+
+A full list is also maintained on [Google Scholar](https://scholar.google.com/citations?user=ZFtNZFEAAAAJ) and [arXiv](https://arxiv.org/a/slowik_o_1).
+
+## Preprints
+
+### 2025
+
+**Quantum Circuit Overhead**
+O. Słowik, P. Dulian, A. Sawicki
+[arXiv:2505.00683](https://arxiv.org/abs/2505.00683)
+
+**Fundamental solutions of heat equation on unitary groups establish an improved relation between ε-nets and approximate unitary t-designs**
+O. Słowik, O. Reardon-Smith, A. Sawicki
+[arXiv:2503.08577](https://arxiv.org/abs/2503.08577)
+
+### 2023
+
+**Efficient reconstruction, benchmarking and validation of cross-talk models in readout noise in near-term quantum devices**
+J. Tuziemski, F. B. Maciejewski, J. Majsak, O. Słowik, M. Kotowski, K. Kowalczyk-Murynka, P. Podziemski, M. Oszmaniec
+[arXiv:2311.10661](https://arxiv.org/abs/2311.10661)
+
+## Peer-reviewed
+
+### 2023
+
+**Calculable lower bounds on the efficiency of universal sets of quantum gates**
+O. Słowik, A. Sawicki
+*J. Phys. A: Math. Theor.* **56**, 115304 (2023).
+[Journal](https://doi.org/10.1088/1751-8121/acbd24) · [arXiv](https://arxiv.org/abs/2208.01539)
+
+### 2021
+
+**Designing locally maximally entangled quantum states with arbitrary local symmetries**
+O. Słowik, A. Sawicki, T. Maciążek
+*Quantum* **5**, 450 (2021).
+[Journal](https://quantum-journal.org/papers/q-2021-05-01-450/) · [arXiv](https://arxiv.org/abs/2011.04078)
+
+**Is asymptotically safe inflation eternal?**
+J. Chojnacki, J. Krajecka, J. H. Kwapisz, O. Słowik, A. Strąg
+*Journal of Cosmology and Astroparticle Physics* **04**, 076 (2021).
+[Journal](https://doi.org/10.1088/1475-7516/2021/04/076) · [arXiv](https://arxiv.org/abs/2010.01718)
+
+### 2020
+
+**A link between symmetries of critical states and the structure of SLOCC classes in multipartite systems**
+O. Słowik, A. Sawicki, M. Hebenstreit, B. Kraus
+*Quantum* **4**, 300 (2020).
+[Journal](https://quantum-journal.org/papers/q-2020-07-20-300/) · [arXiv](https://arxiv.org/abs/2003.07346)
+
+### 2016
+
+**Quantum mechanical aspects in the MEMS/NEMS technology**
+O. Słowik, K. Orłowska, D. Kopiec, P. Janus, P. Grabiec, T. Gotszalk
+*Measurement Automation Monitoring* **62**, no. 03 (2016).

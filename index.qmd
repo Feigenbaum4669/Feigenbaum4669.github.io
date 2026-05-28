@@ -1,0 +1,43 @@
+---
+title: "Oskar Słowik"
+subtitle: "Quantum computing — algorithms, hardware, and the theory in between."
+image: assets/profile.svg
+image-alt: "Placeholder portrait — replace with a real photo"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Feigenbaum4669
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/YOUR-LINKEDIN
+    - icon: mortarboard-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=ZFtNZFEAAAAJ
+    - icon: file-earmark-text
+      text: arXiv
+      href: https://arxiv.org/a/slowik_o_1
+    - icon: envelope
+      text: Email
+      href: mailto:oslowik@cft.edu.pl
+toc: false
+---
+
+I'm a quantum computing researcher and engineer based in Poland. My background spans mathematics, theoretical physics, and computer science — three Bachelor's, two Master's, and a recently completed PhD on *spectral gaps, t-designs and ε-nets in quantum computing* under [Prof. Adam Sawicki](https://quantmath.pl/team/adam-sawicki/) at the Center for Theoretical Physics, Polish Academy of Sciences.
+
+I currently work as a Senior Quantum Engineer at PwC's innovation hub. Past stops include [Phasecraft](https://phasecraft.io/) (quantum software consulting in London) and the [IDUB ion-trap project](https://www.it.pw.edu.pl/) at Warsaw University of Technology. I'm a [Qiskit Advocate](https://qiskit.org/advocates/) and have worked with the IBM Quantum stack since 2020.
+
+## What I work on
+
+- **Efficiency of quantum gates and compilers** — how to approximate arbitrary unitaries with the smallest possible circuits.
+- **t-designs and ε-nets** — the mathematical structures that govern how well a finite set of gates covers the unitary group.
+- **Reliability of quantum hardware** — characterising and mitigating noise on real devices, especially crosstalk in readout.
+- **Ion-trap quantum computing** — the full stack, from algorithms down to control electronics.
+- **Quantum error correction** — LDPC codes and their practical implementation.
+
+## Elsewhere
+
+Outside research I build things — most recently exploring tooling for procedural 3D character generation and formal legal reasoning systems. I write about both on the [blog](posts/index.qmd).

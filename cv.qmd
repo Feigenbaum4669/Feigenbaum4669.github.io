@@ -1,0 +1,108 @@
+---
+title: "Curriculum Vitae"
+toc: true
+toc-depth: 2
+---
+
+A printable PDF version is available [here](assets/cv.pdf). <!-- export from this page via File → Print → Save as PDF, or render with `quarto render cv.qmd --to pdf` -->
+
+## Education
+
+| Year | Degree | Institution |
+|------|--------|-------------|
+| 2025 | PhD, Physics — *Spectral gaps, t-designs and ε-nets in quantum computing* (supervisor: A. Sawicki) | Center for Theoretical Physics PAS |
+| 2021 | MSc, Mathematics — *Cohomological invariants of spaces of quantum states* (supervisor: A. Weber) | University of Warsaw |
+| 2020 | MSc, Physics — *Designing Locally Maximally Entangled States with arbitrary local unitary symmetry* (supervisor: A. Sawicki) | University of Warsaw |
+| 2018 | BSc, Physics — *Asymptotic equivalence of multipartite quantum states under SLOCC* (supervisor: A. Sawicki) | University of Wrocław |
+| 2018 | BSc, Mathematics — *Geometric Invariant Theory and Algebraic Quotients* (supervisor: P. Kowalski) | University of Wrocław |
+| 2018 | BEng, Computer Science — *Discrete Quantum Walks on Graphs* (supervisor: P. Syga) | Wrocław Univ. of Sci. and Tech. |
+| 2016 | BEng, Mechatronics — *Sensitivity and resolution of MEMS based force sensor* (supervisor: T. Gotszalk) | Wrocław Univ. of Sci. and Tech. |
+
+## Experience
+
+**Senior Quantum Engineer**, PwC Innovation Hub (B2B contract) — *2025–present*
+
+**Contractor, IDUB ion-trap project** (PI: G. Kasprowicz), Warsaw University of Technology — *2023–2025*
+
+**Intern, then Consultant**, Phasecraft Ltd, London — *2023–2024*
+Quantum software with Joel Klassen et al.
+
+**PhD Student** (advisor: A. Sawicki), CTP PAS — *2020–2025*
+Topic: *Spectral gaps, t-designs and ε-nets in quantum computing.*
+
+**Quantum Software Engineer**, EuroHPC-PL / CTP PAS — *2021*
+Implementation of error characterisation and mitigation techniques for complex quantum processors, in the Oszmaniec group.
+
+**Project Student**, Theory of Quantum Computing Group, CTP PAS — *2020*
+*Near-term quantum computers: challenges, optimal implementations and applications* (PI: M. Oszmaniec).
+
+**Trainee Researcher**, CTP PAS — *2017–2020*
+Successive projects with A. Sawicki on quantum compilers, quantum graphs, and the theory of optimality, universality and controllability in quantum computing.
+
+**Visiting Researcher**, University of Münster — *2017*
+*p-adic Quantum Mechanics*, with Prof. W. Werner.
+
+## Awards & scholarships
+
+- **2024** — Awardee, Young Scientists Competition, CTP PAS.
+- **2018–2019** — Rector's Scholarship for the best students, University of Warsaw.
+- **2013–2016** — Rector's Scholarships, Wrocław University of Science and Technology.
+- **2012** — Finalist, 61st Polish Olympiad in Physics and 58th Polish Olympiad in Chemistry.
+
+## Certifications
+
+- [Qiskit Advocate Mentorship Program Spring 2022 — Mentee](https://www.credly.com/badges/2f91ee0d-1114-4f8f-b17e-ce4def721ea2/public_url)
+- [Qiskit Advocate](https://www.credly.com/badges/ff5541ce-d56b-4cff-a629-c89eb25d0066) (2021)
+- [IBM Certified Associate Developer — Quantum Computation using Qiskit](https://www.credly.com/badges/9c180543-c3e0-4dfc-8acc-4b907f0f0252) (2021)
+- [IBM Quantum Challenge 2021 — Advanced (1st place)](https://www.credly.com/badges/3056b657-ffea-4431-82fd-5642d0266393)
+- [Qiskit Localization Contributor — Gold Level Translator](https://www.credly.com/badges/fb4e90e6-3669-4052-a767-594ca740d67e) (2020)
+
+## Professional service
+
+- Member of the Scientific Council of CTP PAS, Secretary — *2022–2025*
+- Member of QWorld Board — *2022–2023*
+- Co-coordinator of QPoland and QResearch (QWorld) — *2022–2024*
+- PC member and referee, ICCS Quantum Computing Thematic Track — *2021, 2022, 2023, 2024*
+- Subreferee, QIP 2021
+- Member, IBM Qiskit Advocate Program — *2021–present*
+- Member, Polish Physical Society — *2013–present*
+
+## Teaching
+
+- *Calculus III* — tutorial, Faculty of Physics, University of Warsaw — Fall 2023
+- *Probability Theory* — grading, Guangdong Technion-Israel Institute of Technology — Spring 2022
+- *Compact groups and their representations* / *Mathematical Physics I* — tutorial, CTP PAS — Fall 2020
+
+## Outreach & community
+
+A selection — full list available on request.
+
+- **2025** — Quantum programming workshop, XXIX Festiwal Nauki, Warsaw.
+- **2024** — Coordinator, QIntern2024 internship programme (QResearch / QWorld).
+- **2023** — Two popular-science articles in *Elektronika* (vol. 64): "The quantum computing stack: from algorithms to ions" (lead author) and "Electronic control system for the quantum computer infrastructure in the MIKOK project" (co-author).
+- **2023** — Mentor, Student Quantum Computing Challenge 2023, Institute of Physics, London.
+- **2023** — Mentor, QL Future hackathon (quantum computing and climate change), PSNC, Poznań.
+- **2023** — Jury, Quantum Games Hackathon (QPoland).
+- **2023** — [Interview for NaukOVOpl: *O komputerze kwantowym i jego resecie*](https://www.youtube.com/watch?v=T6E5P60n0L4).
+- **2022** — Jury, Quantum Games Hackathon (QPoland).
+- **2020–2022** — Lead instructor for QWorld quantum programming workshops at QSpain, QGreece, and several editions for Polish high-school students.
+- **2019** — *The mathematics of the game of Criss-Cross*, XXIII Festiwal Nauki.
+- **2016** — Head of Organising Committee, FOKA student physics-optics conference.
+
+## Invited & conference talks
+
+For the full list (~25 talks, including recordings), see the [Talks section](#talks) below or the source [CV at QuantMath](https://quantmath.pl/cv2/).
+
+### Selected recent
+
+- **2025** — *Quantum Circuit Overhead*, 12th Workshop on Quantum Chaos and Localisation Phenomena, IFPAN.
+- **2025** — *Fundamental solutions of heat equation on unitary groups*, QI & QC Working Group Seminar. [▶ video](https://www.youtube.com/watch?v=6Fhis9AoFK4)
+- **2022** — *Transpilation of quantum circuits*, Warsaw Quantum Computing Group XXXVIII. [▶ video](https://www.youtube.com/watch?v=PAUFgZZB4j0)
+- **2021** — *Variational Quantum Algorithms*, Quantum Machine Learning conference.
+- **2021** — *Designing locally maximally entangled quantum states with arbitrary local symmetries*, CTP PAS. [▶ video](https://www.youtube.com/watch?v=Wn3Lk0GRZ-o)
+- **2021** — *Hybrid quantum-classical machine learning with TensorFlow and Cirq*, Warsaw IT Days.
+- **2020** — *An introduction to quantum programming with Python and Qiskit*, Warsaw Quantum Computing Group XXII. [▶ video](https://www.youtube.com/watch?v=mBqg_kyHFFA)
+
+## Contact
+
+oslowik [at] cft.edu.pl

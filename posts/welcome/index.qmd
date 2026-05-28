@@ -1,0 +1,52 @@
+---
+title: "Hello, world"
+description: "Why this site exists, and a quick demo of what Quarto can do."
+author: "Oskar Słowik"
+date: "2026-05-28"
+categories: [meta]
+draft: false
+---
+
+A landing post — partly to test that the site builds, partly to lay out what I plan to use this space for.
+
+## Why a blog
+
+Most of what I write ends up in papers or internal documents. Both formats have constraints — papers are slow and narrow; internal docs disappear into Slack history. A blog covers the gap: notes that are too informal for a paper but worth keeping somewhere durable. Topics I expect to touch on:
+
+- **Quantum computing.** Implementation notes on Qiskit / Cirq / ion-trap stacks, occasional dives into the theory side of my research (t-designs, ε-nets, gate compilation).
+- **Software.** Whatever I happen to be building. Lately that includes some experimental work on procedural 3D character generation and on formal reasoning systems built on Answer Set Programming.
+- **Meta.** Things about doing research and engineering — tooling, workflows, the occasional rant.
+
+## Quick Quarto demo
+
+Because this site is built with [Quarto](https://quarto.org), math, code, and figures all sit in the same document.
+
+A bit of math, rendered server-side via MathJax:
+
+$$
+\big\| U - V \big\|_{\mathrm{op}} \;\leq\; \varepsilon
+\quad\Longleftrightarrow\quad
+V \in \mathcal{N}_\varepsilon(U).
+$$
+
+Code blocks are syntax-highlighted and can run if you want — useful for embedding small Qiskit examples.
+
+```python
+from qiskit import QuantumCircuit
+
+qc = QuantumCircuit(2)
+qc.h(0)
+qc.cx(0, 1)
+qc.measure_all()
+print(qc.draw())
+```
+
+Inline cross-references, footnotes[^1], callouts:
+
+::: {.callout-note}
+The plan is to keep posts short. Anything that grows past ~2000 words probably wants to be a paper or a tech note rather than a blog entry.
+:::
+
+That's it for now. More soon.
+
+[^1]: Like this one.

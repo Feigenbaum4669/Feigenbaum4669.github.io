@@ -1,0 +1,69 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Oskar Słowik"
+  description: "Quantum computing researcher and engineer."
+  site-url: https://feigenbaum4669.github.io
+  repo-url: https://github.com/Feigenbaum4669/Feigenbaum4669.github.io
+  favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card: false
+  search:
+    location: navbar
+    type: overlay
+
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: posts/index.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/Feigenbaum4669
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/YOUR-LINKEDIN
+        aria-label: LinkedIn
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=ZFtNZFEAAAAJ
+        aria-label: Google Scholar
+      - icon: envelope
+        href: mailto:oslowik@cft.edu.pl
+        aria-label: Email
+
+  page-footer:
+    left: "© 2026 Oskar Słowik"
+    right:
+      - text: "Built with [Quarto](https://quarto.org)"
+      - text: "Source on [GitHub](https://github.com/Feigenbaum4669/Feigenbaum4669.github.io)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, styles-dark.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    grid:
+      sidebar-width: 250px
+      body-width: 850px
+      margin-width: 250px
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa

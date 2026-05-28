@@ -1,0 +1,35 @@
+---
+title: "Research"
+---
+
+My research sits at the intersection of mathematical physics and quantum computing. The unifying question across most of my work is **how the geometry and group structure of quantum operations constrains what we can compute, and how well.**
+
+## Current threads
+
+### Efficiency of universal gate sets
+
+A universal set of quantum gates can in principle approximate any unitary, but the *cost* of that approximation — how many gates you need for a given precision — depends sharply on the set. With Adam Sawicki I developed calculable lower bounds on this efficiency ([Słowik & Sawicki 2023](https://doi.org/10.1088/1751-8121/acbd24)), and more recently with Piotr Dulian we've studied the related notion of **circuit overhead** — the price of restricting to a fixed physical gate set rather than ideal continuous control ([arXiv:2505.00683](https://arxiv.org/abs/2505.00683)).
+
+### t-designs and ε-nets
+
+Approximate unitary $t$-designs are finite ensembles that reproduce the first $t$ moments of the Haar measure on the unitary group; ε-nets are finite covers in the operator norm. The two notions are deeply linked, but the precise quantitative relationship has been an open question. In recent work with Reardon-Smith and Sawicki we use fundamental solutions of the heat equation on $U(d)$ to sharpen this correspondence ([arXiv:2503.08577](https://arxiv.org/abs/2503.08577)).
+
+### Reliability of NISQ hardware
+
+Cross-talk between qubits during readout is one of the dominant error sources on current devices. Together with the Oszmaniec group I contributed to a framework for efficiently reconstructing, benchmarking, and validating cross-talk noise models on real hardware ([arXiv:2311.10661](https://arxiv.org/abs/2311.10661)).
+
+### Multipartite entanglement and SLOCC
+
+Earlier work, going back to my MSc thesis, concerns the structure of entanglement classes under stochastic local operations and classical communication (SLOCC). The main results characterise locally maximally entangled (LME) states with prescribed local symmetry groups ([*Quantum* **5**, 450](https://quantum-journal.org/papers/q-2021-05-01-450/)) and connect the symmetries of critical states to the SLOCC stratification of multipartite Hilbert space ([*Quantum* **4**, 300](https://quantum-journal.org/papers/q-2020-07-20-300/)).
+
+## Selected talks
+
+For a full list, see the [CV](cv.qmd). A few recordings:
+
+- [*Fundamental solutions of heat equation on unitary groups*](https://www.youtube.com/watch?v=6Fhis9AoFK4), QI & QC Working Group, 2025
+- [*Transpilation of quantum circuits*](https://www.youtube.com/watch?v=PAUFgZZB4j0), Warsaw Quantum Computing Group, 2022
+- [*Designing locally maximally entangled quantum states*](https://www.youtube.com/watch?v=Wn3Lk0GRZ-o), CTP PAS, 2021
+
+## Collaborators
+
+Adam Sawicki (CTP PAS), Michał Oszmaniec (CTP PAS), Tomasz Maciążek (Bristol), Barbara Kraus (TU Wien / Innsbruck), Joel Klassen (Phasecraft), and the broader [QuantMath](https://quantmath.pl) group.

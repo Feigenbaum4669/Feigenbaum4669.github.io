@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+$body-bg: #14161a !default;
+$body-color: #e8e6e1 !default;
+$navbar-bg: #14161a !default;
+$navbar-fg: #e8e6e1 !default;
+$primary: #6ea8fe !default;
+$link-color: $primary !default;
+
+/*-- scss:rules --*/
+
+.navbar {
+  border-bottom: 1px solid #2a2d33;
+}
+
+.subtitle {
+  color: #999;
+}
+
+a {
+  color: #6ea8fe;
+}
+
+.about-entity .about-link {
+  border-color: #2a2d33;
+  color: #e8e6e1;
+}
+.about-entity .about-link:hover {
+  background: #1f2227;
+}
+
+div.sourceCode {
+  background-color: #1a1d22;
+}
+code:not(.sourceCode) {
+  background-color: #1f2227;
+  color: #e8e6e1;
+}
+
+.table > :not(caption) > * > * {
+  border-bottom-color: #2a2d33;
+}
+.table thead th {
+  border-bottom-color: #e8e6e1;
+}
+
+.listing-date {
+  color: #888;
+}
+
+.nav-footer {
+  border-top-color: #2a2d33;
+  color: #888;
+}
+
+.quarto-listing-container .listing-item {
+  border-bottom-color: #2a2d33;
+}

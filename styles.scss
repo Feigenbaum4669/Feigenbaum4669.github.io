@@ -1,0 +1,151 @@
+/*-- scss:defaults --*/
+
+// Type — switch to an academic serif for body, geometric sans for UI
+$font-family-serif: "Source Serif 4", "Source Serif Pro", "Iowan Old Style", "Apple Garamond", "Palatino Linotype", Georgia, serif !default;
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !default;
+$font-family-monospace: "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace !default;
+
+$font-family-base: $font-family-sans-serif !default;
+
+// Tighter, more deliberate colour palette
+$primary: #0b4a8f !default;          // a deep blue, restrained
+$link-color: $primary !default;
+$body-color: #1a1a1a !default;
+$body-bg: #fdfdfb !default;          // very subtle off-white
+$navbar-bg: #fdfdfb !default;
+$navbar-fg: #1a1a1a !default;
+
+$headings-font-weight: 600 !default;
+$headings-line-height: 1.25 !default;
+
+// Looser line-height for body text — academic feel
+$line-height-base: 1.65 !default;
+
+/*-- scss:rules --*/
+
+// Load fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@400;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+// Body uses sans by default; reserve serif for prose pages
+body {
+  font-feature-settings: "kern", "liga", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+// Navbar — subtle bottom border, no shadow, slightly smaller font
+.navbar {
+  border-bottom: 1px solid #e5e5e0;
+  box-shadow: none;
+  font-size: 0.95rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+// Headings — tighter tracking, serif on prose pages
+h1, h2, h3, h4 {
+  letter-spacing: -0.015em;
+}
+h1.title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+.subtitle {
+  font-weight: 400;
+  color: #555;
+  font-size: 1.15rem;
+  margin-bottom: 1.5rem;
+}
+
+// Body prose styling for the main content area
+.quarto-title-block + section,
+main.content {
+  // Use serif for paragraph text on long-form pages
+}
+
+// Cleaner link underlines
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+// About section (home page) — tighten spacing
+.about-entity .about-link {
+  border: 1px solid #d8d8d2;
+  background: transparent;
+  color: #1a1a1a;
+  transition: background 0.15s ease;
+}
+.about-entity .about-link:hover {
+  background: #f0f0eb;
+}
+
+// Code blocks — subtle background, no border
+div.sourceCode {
+  background-color: #f5f5f0;
+  border: none;
+  border-radius: 4px;
+}
+code:not(.sourceCode) {
+  background-color: #f0f0eb;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-size: 0.92em;
+}
+
+// Tables — academic style, no heavy borders
+.table {
+  font-size: 0.95rem;
+}
+.table > :not(caption) > * > * {
+  padding: 0.6rem 0.75rem;
+  border-bottom-color: #e5e5e0;
+}
+.table thead th {
+  border-bottom: 2px solid #1a1a1a;
+  font-weight: 600;
+}
+
+// Blog listing
+.quarto-listing-container .listing-item {
+  border-bottom: 1px solid #e5e5e0;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+.listing-date {
+  color: #777;
+  font-size: 0.88rem;
+  font-variant-numeric: tabular-nums;
+}
+
+// Callouts — flatter
+.callout {
+  border-left-width: 3px;
+  box-shadow: none;
+}
+
+// Footer
+.nav-footer {
+  border-top: 1px solid #e5e5e0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+// Print styles for CV export
+@media print {
+  .navbar, .nav-footer, .sidebar, .margin-sidebar { display: none !important; }
+  body { font-size: 10pt; }
+  h1 { font-size: 18pt; }
+  h2 { font-size: 14pt; margin-top: 1.2em; }
+  a { color: inherit; text-decoration: none; }
+}

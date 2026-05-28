@@ -1,0 +1,9 @@
+/.quarto/
+/_site/
+*.html
+!index.html
+*.log
+.DS_Store
+node_modules/
+*.swp
+.env
